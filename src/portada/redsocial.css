@@ -1,0 +1,17 @@
+.redsocial{
+    position:absolute;
+    bottom: 10vh;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    
+}
+.container-redsocial{
+    background-color: rgb(255, 255, 255);
+    border-radius: 21.533px;
+    padding: 10px;
+}
+.container-redsocial img{
+    width: 20.4px;
+    height: 20.4px;
+}

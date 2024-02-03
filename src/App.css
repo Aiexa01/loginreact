@@ -1,0 +1,6 @@
+.container{
+background-color: rgb(10, 70, 10);
+width: 100vw;
+height: 100vh;
+display: flex;
+}

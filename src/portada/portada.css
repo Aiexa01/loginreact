@@ -1,0 +1,16 @@
+.portada{
+    width: 40%;
+    height: 100%; /*el 100% solo trabaja con una medida fija*/ 
+    background-image: url('/public/assets/imagenes/fondo1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:1000px) {
+    .portada{
+        display: none;
+    }
+  
+}

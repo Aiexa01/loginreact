@@ -1,0 +1,107 @@
+.login-text-button{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+.login-photo-button{
+    border-radius: 8px;
+    background: #F2F2F2;    
+    padding: 12px 18px 12px 18px;
+    display: flex;
+    justify-content: space-between;/*tiene la porpiedad de poner un objeto a la izq y otros a la derecha espaciados */
+    align-items: center;
+    gap:20px;
+}
+.login-photo-button .remove a{
+    color: #FF2C2C;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 175% */
+    text-decoration: none;
+}
+
+.link-button{
+    display: flex;
+    align-items: center;
+    gap: 160px;
+
+}
+.link-button a{
+    color: #303468;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    text-decoration-line: underline;
+}
+.link-button button{
+
+    display: flex;
+    width: 170px;
+    height: 70px;
+    padding: 18px;
+    flex-direction: row;
+    align-items:center;
+    border-radius: 8px;
+    background: #007DFA;
+    justify-content: space-between;
+    border:none
+    
+}
+.link-button span{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 160% */
+}
+.text-button{
+    display: flex;
+    justify-content: space-between;
+    border-top:1px solid #DFDFDF;
+    padding-top: 20px;
+
+}
+.text-button span{
+    color: #4C4F7C;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+
+}
+.text-button .sign-up{
+    color: #007DFA;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 175% */
+
+}
+@media screen and (max-width:1000px) {
+    
+    .link-button button{
+
+       
+        width:130px;
+        height: 60px;
+        padding: 18px;
+        
+    }
+}
+@media screen and (max-width:600px) {
+
+    .link-button{
+        display: flex;
+        align-items: center;
+        gap: 80px;
+    }
+    
+    
+}

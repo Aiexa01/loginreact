@@ -1,0 +1,14 @@
+.container-form{
+    width: 60%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+@media screen and (max-width:1000px) {
+
+    .container-form{
+        width:100%;
+        background-image: url(/public/assets/imagenes/fondo1.png);
+    }
+   
+}

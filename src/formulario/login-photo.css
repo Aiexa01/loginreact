@@ -1,0 +1,42 @@
+.login-text{
+    color: #2F3367;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px; 
+    display: flex;
+    flex-direction: column;
+}
+.login-text-h3{
+    color: #8E8E8E;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px
+}
+.login-photo{
+    display: flex;
+    flex-direction: column;
+    gap:28px;
+}
+.login-photo2{
+    gap: 7px;
+}
+.login-photo2 span{
+    color: #6B6D92;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+b{
+    color: #303468;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
